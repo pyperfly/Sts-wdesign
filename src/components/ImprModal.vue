@@ -407,13 +407,19 @@ margin-top: 28px;
         font-size: 1.3em;
     }
 
+    h3{
+
+        font-size: 1.1em;
+        }
+
     p{
         font-size: 0.8em;
         }
 
     .infoModal{
         max-height: 85vh;
-        padding: 10px 0;
+        width: 95vw;
+        padding: 0px 0;
     }
 
 
@@ -421,6 +427,13 @@ margin-top: 28px;
         flex-direction: column;
 
         }
+
+    
+    .mlCat{
+        margin: 10px 0px;
+       
+        }
+
 
 
 
@@ -431,6 +444,14 @@ margin-top: 28px;
     .mlimg{
      width: 220px;
      }
+
+
+
+    .togglerBTN{
+       
+        font-size: 1.5em;
+      
+        }
 
      .toggleDEG{
       display: inline-block;

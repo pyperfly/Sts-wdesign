@@ -123,7 +123,6 @@ export default {
           justify-content: space-between;
           margin: 40px;
           color: rgba(250, 230, 240, 1);
-          background-color: rgba(50, 230, 240, 1);
            font-size: 1.6rem;
         }
 
