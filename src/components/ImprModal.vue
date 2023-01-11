@@ -202,18 +202,13 @@ export default {
 <style scoped>
 
 h1{
-    margin-top: 40px;
-    padding: 10px;
-}
 
-h2{
-    margin-top: 40px;
-    padding: 15px;
+margin-top: 8px;
 }
 
 h3{
-    margin-top: 10px;
-    padding: 5px;
+
+margin-top: 28px;
 }
 
 .wrapModal{
@@ -353,10 +348,16 @@ h3{
 .mlCat{
     align-self: stretch;
     background-color:  var(--themeColBright);
-    margin-left: 10px;
+    margin: 10px;
     color: rgb(20, 20, 20);
     overflow-y: auto;
 }
+
+.mlCat h1{
+    margin-bottom: 20px;
+    
+}
+
 
 
 .mlacat{
@@ -388,9 +389,9 @@ h3{
 
 
 .subCatHead{
-    margin-top: 30px;
-    padding: 25px;
-    font-size: 1.6rem;
+    margin-top: 20px;
+    padding: 15px;
+    font-size: 1.3rem;
 }
 
 
@@ -401,6 +402,19 @@ h3{
 
  @media(max-width: 1300px){
 
+    h1{
+
+        font-size: 1.3em;
+    }
+
+    p{
+        font-size: 0.8em;
+        }
+
+    .infoModal{
+        max-height: 85vh;
+        padding: 10px 0;
+    }
 
 
     .mlMain{
@@ -408,6 +422,12 @@ h3{
 
         }
 
+
+
+    .modalClose{
+        font-size: 2.5rem;
+        padding: 10px 15px;
+    }
     .mlimg{
      width: 220px;
      }
@@ -424,10 +444,10 @@ h3{
 
 
 
-.togglerBTN{
-  font-size: 1.5em;
-  /*mix-blend-mode: screen;*/
-}
+    .togglerBTN{
+    font-size: 1.5em;
+    /*mix-blend-mode: screen;*/
+    }
 
 
   }

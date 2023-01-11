@@ -121,8 +121,16 @@ export default {
           display: flex;
           flex-direction: column;
           justify-content: space-between;
+          margin: 40px;
           color: rgba(250, 230, 240, 1);
+          background-color: rgba(50, 230, 240, 1);
            font-size: 1.6rem;
+        }
+
+
+        .contInfoCont p{
+          margin: 0;
+          padding: 0;
         }
 
 
@@ -148,20 +156,22 @@ export default {
 
      .contInfo{
       flex-direction: row;
-       justify-content: space-around;
+       justify-content: space-evenly;
+       gap: 0;
        clip-path: none;
          max-height: 10vh;
       }
 
        .contInfoTitle {
-        margin: 50px 10px;
-        font-size: 2rem;
+        font-size: 1.3rem;
 
     }
 
     .contInfoCont{
           flex-direction: column;
-          margin: 0;
+          max-height: 80%;
+          font-size: 1.3rem;
+          padding: 0px;
     }
 
   }

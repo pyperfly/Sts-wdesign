@@ -54,7 +54,12 @@ export default {
   padding: 0;
   box-sizing: border-box;
 
-}
+  
+
+  }
+
+
+
 
 
 body{
@@ -71,6 +76,18 @@ body{
 
     background-attachment: fixed;
        }
+
+
+    
+ @media(max-width: 1000px){
+
+
+  .h1{
+      font-size: 1.8em;
+  }
+
+  }
+
 
 /* gluten-regular - latin */
 @font-face {
