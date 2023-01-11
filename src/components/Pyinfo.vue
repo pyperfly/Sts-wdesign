@@ -63,7 +63,7 @@ export default {
 
     .skillCont{
         flex: 1 1 45%;
-        max-width:70%;
+        max-width:60vw;
         display: flex;
         flex-wrap: wrap;
         gap: 20px;
@@ -80,7 +80,7 @@ export default {
     padding-top: 10px;
     min-height: 10px;
     max-height: 100px;
-    font-size: 2.3rem;
+    font-size: 1.8rem;
     font-family: "American Typewriter", serif;
     border-left: 5px solid rgba(122,112, 11, 0.8);
     border-radius: 25%;
@@ -89,18 +89,29 @@ export default {
   .pyimg{
      flex: 1 1 45%;
      font-size: 2rem;
-     min-width: 800px;
+     min-width: 40vw;
      padding: 5px 15px;
      font-family: Helvetica, Roboto, Lato, sans-serif;
      }
 
 
   .pyimg img{
+     margin: 0;
+     padding: 0;
      width: 90%;
+     max-width: 100%;
+     height: auto;
      }
 
   @media(max-width: 1300px){
+
+    .skillCont{
+        max-width:70%;
+        
+    }
+
     .pyimg{
+        max-width: 90vw;
         padding: 2px;
         margin: 2px;
      }

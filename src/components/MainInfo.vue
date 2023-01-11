@@ -136,11 +136,13 @@ export default {
      }
 
       .aboutComp{
-        font-size: 2.2rem;
+        flex-wrap: wrap;
+        margin: 0;
+        font-size: 1.8rem;
     }
 
       .introComp{
-      font-size: 1.6rem;
+      font-size: 1rem;
 
     }
 

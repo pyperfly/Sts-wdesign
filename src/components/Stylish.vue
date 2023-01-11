@@ -166,13 +166,14 @@ export default{
      grid-area: bottom;
      display: flex;
      justify-content: space-around;
+     font-size: 1.8rem;
      border-radius: 0px;
     }
 
 
     .techstack{
         text-align: center;
-        padding: 10px;
+        padding: 30px 5px;
         border-radius: 5px;
         color: rgba(230, 200, 210, 1);
          font-family:  "Verdana", sans;
@@ -196,8 +197,8 @@ export default{
 
     .styleGrid {
       display: grid;
-      grid-template-columns: 2fr 1fr 1fr 2fr;
-      grid-template-rows: 1fr 1fr;
+      grid-template-columns: 8fr 5fr 5fr 8fr;
+      grid-template-rows: 4fr 5fr;
       grid-template-areas:
         "topleft topleft topright topright"
         "left bottom bottom right";
@@ -215,12 +216,12 @@ export default{
  @media(max-width: 1800px){
 
        .styleIcons{
-         font-size: 2rem;
+         font-size: 1.5rem;
         }
     }
 
 
- @media(max-width: 1100px){
+ @media(max-width: 1300px){
    .styleGrid {
       grid-template-columns: 5fr 4fr;
       grid-template-rows: 2fr 1fr 1fr 2fr;
@@ -234,6 +235,9 @@ export default{
       .sblock{
      padding: 20px;
     }
+    .styleIcons{
+         font-size: 1.3rem;
+        }
 
     }
 

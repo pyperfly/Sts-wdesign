@@ -8,11 +8,10 @@
             </div>
 
             <div class="mlMain">
-                <div class="toggleIMP togglerBTN" v-if="!showImpr && smallScreen" @click="toggleImpr">
-                    <h1>
+                <button class="toggleIMP togglerBTN" v-if="!showImpr && smallScreen" @click="toggleImpr">
                         Impressum
-                    </h1>
-                </div>
+                    
+                </button>
 
 
                 <div class="mlCat mlacat" v-if="showImpr || !smallScreen">
@@ -29,11 +28,9 @@
 
                 </div>
 
-                <div class="toggleDEG togglerBTN" v-if="showImpr  && smallScreen" @click="toggleDVO">
-                    <h1>
+                <button class="toggleDEG togglerBTN" v-if="showImpr  && smallScreen" @click="toggleDVO">
                         Datenschutzerklärung
-                    </h1>
-                </div>
+                </button>
 
                 <div class="mlCat mlsCat" v-if="!showImpr || !smallScreen">
                     <h1>
@@ -326,10 +323,16 @@ h3{
   margin: 10px;
   min-height: 90px;
   max-width: 450px;
-  color:rgb(231, 218, 193);
-  background:  rgb(64, 27, 124);
+  position: relative;
+  color: rgb(64, 27, 124);
+  background:  var(--themeColBright);
+  font-size: 2em;
   border-radius: 20px;
+  /*mix-blend-mode: screen;*/
 }
+
+
+
 
 
 .togglerBTN:hover{
@@ -411,7 +414,6 @@ h3{
 
      .toggleDEG{
       display: inline-block;
-      font-size: 0.8em;
     }
 
     .mlsCat{
@@ -419,6 +421,14 @@ h3{
       border-left: none;
       padding-left: 5px;
     }
+
+
+
+.togglerBTN{
+  font-size: 1.5em;
+  /*mix-blend-mode: screen;*/
+}
+
 
   }
 

@@ -68,11 +68,11 @@ export default {
 }
 
 
- @media(min-width: 1500px){
+ @media(max-width: 1500px){
 
    
     .modalBTN{
-         width: 40vw;
+         width: 60vw;
              }
 
 

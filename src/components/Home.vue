@@ -113,7 +113,7 @@ export default {
 
 
 .mainShow{
-     padding-top: 18vh;
+     padding-top: 12vh;
      padding-bottom: 18vh;
      color: rgb(233, 244, 222);
 }
