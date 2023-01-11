@@ -418,6 +418,7 @@ margin-top: 28px;
 
     .infoModal{
         max-height: 85vh;
+        margin-top: 10vh;
         width: 95vw;
         padding: 0px 0;
     }
