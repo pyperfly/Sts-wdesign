@@ -5,7 +5,7 @@
         
     <div class="styleGrid">
         <div class="sblock sone"><p>{{ this.styleStory[0] }}</p></div>
-        <div class="sblock stwo"><p>{{ this.styleStory[0] }}</p></div>
+        <div class="sblock stwo"><p>{{ this.styleStory[1] }}</p></div>
 
 
         <div :style="cssVars" class="sblock styleIcons">
@@ -14,8 +14,8 @@
             <div class="techstack">JS</div>
         </div>
 
-        <div class="sblock sthree"><p>{{ this.styleStory[3] }}</p></div>
-        <div class="sblock sfour"><p>{{ this.styleStory[0] }}</p></div>
+        <div class="sblock sthree"><p>{{ this.styleStory[2] }}</p></div>
+        <div class="sblock sfour"><p>{{ this.styleStory[3] }}</p></div>
 
 
 
@@ -47,7 +47,7 @@ export default{
         this.styleStory = [
             'modernes Layout mit Flexbox und Grid',
             'interaktiv und freundlich',
-            'Individuell und stylisch',
+            'Individuell und Stylish',
             'dynamisch und smart mit Javascript'
         ],
         
