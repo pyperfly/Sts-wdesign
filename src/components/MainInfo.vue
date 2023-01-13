@@ -192,6 +192,11 @@ export default {
          
     }
 
+    .contInfoCont p{
+          margin-left: 25px;
+        }
+
+
 
 
   }
