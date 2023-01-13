@@ -133,12 +133,14 @@ export default{
      justify-content: center;
      align-items: center;
      padding: 30px;
-     font-family: "American Typewriter", serif;
+     font-family: "Segoe UI", "Palatino", "Playfair Display", serif;
      font-size: 2rem;
      font-weight: 400;
+     text-transform: uppercase;
      color: rgb(40, 40, 30);
      border-radius: 4px;
     }
+
 
     .sone{
      grid-area: left;
