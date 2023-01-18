@@ -236,6 +236,7 @@ export default{
 
       .sblock{
      padding: 20px;
+     font-size: 1.8rem;
     }
     .styleIcons{
          font-size: 1.3rem;
@@ -255,6 +256,7 @@ export default{
 
     .sblock{
      padding: 10px;
+     font-size: 1.5rem;
     }
 
   }
